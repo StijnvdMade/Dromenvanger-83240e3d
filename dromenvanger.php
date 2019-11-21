@@ -20,7 +20,6 @@ for($i = 1; $i <= $amount; $i++){
         $dingen[$vrienden][$j] = readline();
     }
 }
-var_dump($dingen);
 foreach($dingen as $key => $value){
     echo $key . "'s droom is ";
     for($x = 1; $x <= $amount; $x++){
